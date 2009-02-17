@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{passenger_debugger}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christopher Redinger"]
   s.date = %q{2009-02-17}
   s.description = %q{TODO}
   s.email = %q{redinger@gmail.com}
-  s.files = ["lib/passenger_debugger.rb", "lib/tasks", "lib/tasks/passenger_debugger.rake"]
+  s.files = ["VERSION.yml", "lib/passenger_debugger.rb", "lib/tasks", "lib/tasks/passenger_debugger.rake"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/redinger/passenger_debugger}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
