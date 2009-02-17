@@ -1,6 +1,30 @@
-passenger_debug===============
-Description goes here.
+passenger_debugger===============
+Restart passenger in debug model
 
+== INSTALL:
+  gem install redinger-passenger_debugger -s http://gems.github.com
+  
+  In development.rb add:
+    config.gem 'redinger-passenger_debugger'
+  In your Rakefile add:
+    require 'passenger_debugger'
+  Add the following lines to your ~/.rdebugrc
+    set autoeval
+    set autolist
+    set autoreload
+
+== USAGE:
+  # Restart passenger in debug
+  rake passenger:debug
+
+  # Start loading a web page
+  # Connect to the remote process
+  rdebug -c
+  
+  # Once you exit the debugger, you'll need to restart in debug mode to reconnect
+ 
+
+Pretty much swiped from http://duckpunching.com/passenger-mod_rails-for-development-now-with-debugger
 COPYRIGHT
 =========
 

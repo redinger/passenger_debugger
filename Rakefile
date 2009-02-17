@@ -3,10 +3,10 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "passenger_debug"
+    s.name = "passenger_debugger"
     s.summary = %Q{TODO}
     s.email = "redinger@gmail.com"
-    s.homepage = "http://github.com/redinger/passenger_debug"
+    s.homepage = "http://github.com/redinger/passenger_debugger"
     s.description = "TODO"
     s.authors = ["Christopher Redinger"]
   end
@@ -17,7 +17,7 @@ end
 require 'rake/rdoctask'
 Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = 'passenger_debug'
+  rdoc.title = 'passenger_debugger'
   rdoc.options << '--line-numbers' << '--inline-source'
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
